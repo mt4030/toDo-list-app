@@ -1,10 +1,14 @@
+
 import './App.css'
-import Todolist from './todolist'
+import Todoup from './assets/componants/todocom'
+
 function App() {
+
+
   return (
-    <>
-    <Todolist/>
-    </>
+    <div>
+   <Todoup/>
+    </div>
   )
 }
 

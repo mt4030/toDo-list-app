@@ -1,5 +1,12 @@
 
-body{
- background-color:#283e4b
+@import "tailwindcss";
 
+/* add flowbite styles */
+@import 'flowbite';
+
+.background{
+  background-image: url('./assets/img/bg-desktop-light.jpg');
+}
+body {
+  @apply bg-white dark:bg-gray-900;
 }
