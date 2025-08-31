@@ -1,12 +1,42 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React Todo App** with **dark mode support**, **localStorage persistence**, and **interactive UI** using Tailwind CSS and Flowbite components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add, remove, and toggle todos.
+- Persist todos using `localStorage` so tasks are saved across page reloads.
+- Toggle completion status of each task.
+- Dark mode support (syncs with system preference and can be toggled manually).
+- Responsive design using Tailwind CSS.
+- Interactive UI components powered by Flowbite and React Icons.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **React** (with functional components and hooks)
+- **Tailwind CSS** for styling
+- **Flowbite React** for prebuilt components
+- **React Icons** for SVG icons
+- **uuid** for unique todo IDs
+- **LocalStorage** for persistence
+
+---
+
+src/
+├─ components/
+│  ├─ FormInput.jsx       # Input form component
+│  ├─ Item.jsx            # Individual todo item component
+│  └─ TodoUp.jsx          # Main todo container
+├─ App.jsx                # App entry point
+└─ index.css              # Tailwind and custom styles
+
+License
+
+This project is licensed under the MIT License. See the LICENSE
+ file for details.
+
+ author : mohsen
